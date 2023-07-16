@@ -32,3 +32,6 @@ in git terminal git clone plugin and resourcepack
 git config --global user.name "your_username"
 git config --global user.email "your_email_address@example.com"
 git credentials via doing first push
+
+
+# something
