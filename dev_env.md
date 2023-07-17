@@ -6,6 +6,8 @@ https://github.com/stroebitzer/minecraft-plugin
 
 Download and install https://code.visualstudio.com/
 
+settings autosave onfocuschange
+
 # Git
 
 Download and install https://git-scm.com/download
@@ -16,6 +18,8 @@ Restart VSC
 
 git config --global user.email "EMAIL"
 git config --global user.name "NAME"
+
+sign in via browser
 
 # Java
 
