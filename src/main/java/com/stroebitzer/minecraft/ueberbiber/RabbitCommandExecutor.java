@@ -23,7 +23,7 @@ public class RabbitCommandExecutor implements CommandExecutor {
             Location location = player.getLocation();
 
             Rabbit rabbit = player.getWorld().spawn(location, Rabbit.class);
-            rabbit.setRabbitType(Type.GOLD);
+            rabbit.setRabbitType(Type.THE_KILLER_BUNNY);
         }
         return true;
     }
