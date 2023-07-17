@@ -12,6 +12,20 @@ Download and install https://git-scm.com/download
 
 Restart VSC
 
+## Git Config
+
+git config --global user.email "EMAIL"
+git config --global user.name "NAME"
+
+# Java
+
+Open Terminal / New Terminal
+winget search Microsoft.OpenJDK
+winget install Microsoft.OpenJDK.17
+
+restart VSC
+in Terminal: java --version
+
 # Clone Repo
 
 Click Git Symbol
@@ -23,5 +37,9 @@ Destination Desktop/hackathon-2023
 
 trust authors button (parent folder)
 
-Popup Extension
+Popup Extension Pack for Java
+
+Click build.gradle
+
+Popup Gradle for Java
 
