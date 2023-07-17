@@ -7,6 +7,12 @@ minecraft java
 
 # misc
 
+codeorganisation
+- wurschtcode
+- funktionen
+- klassen, vererbung
+- interfaces
+
 ports, ips, ssh, dns,...
 
 # Java
