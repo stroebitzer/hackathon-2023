@@ -27,7 +27,7 @@ jobs:
         with:
           src:  ./build/libs/ueberbiber.jar
           host: minecraft.stroebitzer.com
-          remote: /root/spiget/server/plugins
+          remote: /root/spigot/plugins
           port: 22
           user: root
           key: ${{ secrets.SSH_KEY }}        
