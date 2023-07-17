@@ -1,3 +1,5 @@
+.secrets/
+
 .gradle
 bin
 build
