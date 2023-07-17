@@ -1,0 +1,16 @@
+in /etc/systemd/system/spigot.service
+
+[Unit]
+Description=Spigot Minecraft Server
+After=network.target
+
+[Service]
+SuccessExitStatus=143
+Type=simple
+WorkingDirectory=/root/spiget/server
+ExecStart=java -Xms2G -Xmx7G -XX:+UseG1GC -jar spigot.jar nogui
+ExecStop=/bin/kill -15 $MAINPID
+TimeoutSec=10
+
+[Install]
+WantedBy=multi-user.target

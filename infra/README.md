@@ -20,3 +20,11 @@ screen -S minecraft
 screen -r minecraft
 
 STRG + A + D
+
+# plugins
+
+https://www.minecraftforum.net/forums/support/server-support-and/1897319-plugins-folder
+
+# logs
+
+tail -f /root/spiget/server/logs/latest.log
