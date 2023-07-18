@@ -8,7 +8,8 @@ public class Interfaces {
         Cat cat = new Cat();
         cat.makeSound();
 
-        //TODO implement cow
+        Cow cow = new Cow();
+        cow.makeSound();
 
     }
 
@@ -33,3 +34,10 @@ public class Interfaces {
         System.out.println("meow");
     }
 }
+
+ class Cow implements Animal {
+
+    public void makeSound() {
+        System.out.println("Kuhhh");
+    }
+ }

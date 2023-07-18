@@ -22,8 +22,10 @@ public class Functions {
         return a + b;
     }
 
-    // TODO implement minus
-
+    public static Integer minus(Integer a, Integer b) {
+        return a - b;
+    }
+    
     public static Integer multiply(Integer a, Integer b) {
         return a * b;
     }

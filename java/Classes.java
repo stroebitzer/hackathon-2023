@@ -7,7 +7,8 @@ public class Classes {
         Cat cat = new Cat(4);
         cat.meow();
 
-        // TODO implement cow
+        Cow cow = new Cow(137);
+        cow.Kuhhh();
 
     }
 
@@ -43,6 +44,18 @@ class Cat extends Animal {
 
     public void meow() {
         System.out.println("meow");
+    }
+
+}
+
+class Cow extends Animal {
+
+    public Cow(Integer age) {
+        this.age = age;
+    }
+
+    public void Kuhhh() {
+        System.out.println("Kuhhh");
     }
 
 }
