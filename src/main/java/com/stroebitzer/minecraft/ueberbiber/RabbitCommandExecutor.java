@@ -24,7 +24,7 @@ public class RabbitCommandExecutor implements CommandExecutor {
 
             Rabbit rabbit = player.getWorld().spawn(location, Rabbit.class);
             rabbit.setTarget(player);
-            rabbit.setRabbitType(Type.GOLD);
+            rabbit.setRabbitType(Type.SALT_AND_PEPPER);
         }
         return true;
     }
