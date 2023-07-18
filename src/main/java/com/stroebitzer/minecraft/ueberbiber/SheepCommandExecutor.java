@@ -1,6 +1,7 @@
 package com.stroebitzer.minecraft.ueberbiber;
 
 import org.bukkit.Bukkit;
+import org.bukkit.DyeColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -19,7 +20,7 @@ public class SheepCommandExecutor implements CommandExecutor {
             Location location = player.getLocation();
             Sheep sheep = player.getWorld().spawn(location, Sheep.class);
             sheep.setSheared(false);
-            sheep.setColor(PINK);
+            sheep.setColor(DyeColor.PINK);
             sheep.setTarget(player);
         }
         return true;
