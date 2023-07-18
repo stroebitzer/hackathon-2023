@@ -11,7 +11,7 @@ public class Calculator {
         } else if (operation.equals("weniga")) {
             System.out.println(a - b);
         } else if (operation.equals("moi")) {
-            System.out.println(a * b);
+            // TODO implement multiply
         } else if (operation.equals("duach")) {
             System.out.println(a / b);
         }
