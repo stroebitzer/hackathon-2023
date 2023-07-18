@@ -3,9 +3,12 @@
 
 github accounts
 github invite
-minecraft java
 
 # misc
+
+ports, ips, ssh, dns,...
+
+# Java
 
 codeorganisation
 - wurschtcode
@@ -13,18 +16,10 @@ codeorganisation
 - klassen, vererbung
 - interfaces
 
-ports, ips, ssh, dns,...
-
-# Java
-
-bedrock vs java minecraft
-
-minecraft server and clients
-
-ops.json
-
 history
-jar files
+
+build once, run anywhere
+
 compilation
 hello world
 class
@@ -33,18 +28,26 @@ variables
 
 # Minecraft plugin
 
+minecraft java
+
+how to setup a server
+
+how to setup java
+
+bedrock vs java minecraft
+
+minecraft server and clients
+
+ops.json
+
 ops on server
 op n_Axolotl
-
-
 
 minecraft console
 => ops.json
 /weather rain
 /gamemode creative
 /time set noon
-
-
 
 plugins folder
 restart
