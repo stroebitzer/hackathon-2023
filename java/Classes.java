@@ -41,10 +41,7 @@ class Cat extends Animal {
     public Cat(Integer age) {
         this.age = age;
     }
-
-    public void meow() {
-        System.out.println("meow");
-    }
+\]
 
 }
 
